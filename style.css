@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#tabuleiro {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.linha {
+  display: flex;
+}
+
+.celula {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+}
+
+.peca {
+  background: blue;
+  border-radius: 50%;
+}
+
+.vazio {
+  background: white;
+}
+
+.invalida {
+  background: gray;
+  border: none;
+}
+
+.celula {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.peca:hover {
+  background: darkblue;
+}
+
+.selecionada {
+  border: 2px solid red;
+}
